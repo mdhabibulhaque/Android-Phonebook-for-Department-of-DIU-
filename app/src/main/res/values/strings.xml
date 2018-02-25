@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Daffodil Phonebook</string>
+    <string name="email">aktarhossain@daffodilvarsity.edu.bd</string>
+    <string name="Cell_Phone">01817382645</string>
+    <string name="name">Prof. Dr. Syed Akhter Hossain (Head)</string>
+    <string name="Department">Department of CSE</string>
+    <string name="title_activity_cse">Cse</string>
+    <string name="title_activity_akhter__sir">Akhter_Sir</string>
+</resources>

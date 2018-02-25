@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="helloworld.aid.com.phonebookdesign">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"> </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/diu_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Staffs" />
+        <activity android:name=".IT_Supports" />
+        <activity android:name=".Admission_Help_Line" />
+        <activity android:name=".Faculty" />
+        <activity android:name=".CSE_Department" />
+        <activity android:name=".Jueal_Sir" />
+        <activity android:name=".Akhter_Sir" />
+        <activity android:name=".Noori_Sir"></activity>
+    </application>
+
+</manifest>

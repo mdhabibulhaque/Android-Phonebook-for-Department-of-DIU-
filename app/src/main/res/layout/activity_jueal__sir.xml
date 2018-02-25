@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="helloworld.aid.com.phonebookdesign.Jueal_Sir">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@drawable/background_jueal_sir">
+
+    </LinearLayout>
+
+    <AbsoluteLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#DCDDDD">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="190dp"
+            android:layout_height="140dp"
+            android:src="@drawable/profile_jueal_sir"
+            android:layout_x="68dp"
+            android:layout_y="-10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md. Jueal Miah"
+            android:textSize="20sp"
+            android:layout_x="130dp"
+            android:layout_y="152dp" />
+
+        <ImageButton
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/call"
+            android:layout_x="18dp"
+            android:layout_y="132dp"
+            android:id="@+id/jueal_sir_call"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lecturer"
+            android:textSize="20dp"
+            android:layout_x="135dp"
+            android:layout_y="182dp" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>
